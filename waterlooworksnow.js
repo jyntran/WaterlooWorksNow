@@ -2,7 +2,7 @@
 // @name         WaterlooWorksNow
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Get WaterlooWorks to work now. New tab functionality so far.
+// @description  Waterloo Works script to add new functionality. Adds new tab functionality to listings.
 // @author       jyntran
 // @match        https://waterlooworks.uwaterloo.ca/myAccount/hire-waterloo/*
 // @grant        none
