@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WaterlooWorksNow
 // @namespace    http://tampermonkey.net/
-// @version      2.2
+// @version      2.3
 // @description  Waterloo Works script to add more features. Adds new tab functionality to listings and an expiring-soon indicator.
 // @author       jyntran
 // @match        https://waterlooworks.uwaterloo.ca/*
@@ -20,7 +20,7 @@
         
         newTab.window.onload = function() {
             var loadingIconElem = document.createElement('span');
-            var loadingElem = document.createElement('div');
+            var loadingElem = document..2createElement('div');
             loadingIconElem.setAttribute('class', 'icon-cog icon-spin');
             loadingIconElem.setAttribute('style', 'font-size: 1000%; color: white;');
             loadingElem.setAttribute('id', 'wwnLoading');
