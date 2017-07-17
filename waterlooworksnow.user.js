@@ -20,7 +20,7 @@
         
         newTab.window.onload = function() {
             var loadingIconElem = document.createElement('span');
-            var loadingElem = document..2createElement('div');
+            var loadingElem = document.createElement('div');
             loadingIconElem.setAttribute('class', 'icon-cog icon-spin');
             loadingIconElem.setAttribute('style', 'font-size: 1000%; color: white;');
             loadingElem.setAttribute('id', 'wwnLoading');
