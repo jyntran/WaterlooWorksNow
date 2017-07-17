@@ -33,7 +33,7 @@
     };
     
     function renderExpiring() {
-        $('.isAboutToExpire td:nth-child(' + 3 + ')').append(function() {
+        $('.isAboutToExpire td:nth-child(' + 4 + ')').append(function() {
             var expiringElem = $('<span></span>');
             expiringElem.attr({
                 'class': 'icon-exclamation-sign wwn-expiring',
@@ -46,7 +46,7 @@
     
     function renderNewTabButtons() {
         // append button to listing
-        $('.searchResult td:nth-child(' + 3 + ')').append(function(){
+        $('.searchResult td:nth-child(' + 4 + ')').append(function(){
             var linkElem = $(this).find('a').get(0);
             var onclickContents = linkElem.onclick;
             var newTabSpanElem = $('<span></span>');
@@ -65,7 +65,7 @@
         });
         
         // remove br element after job title link
-        $('.searchResult td:nth-child(' + 3 + ') br').remove();
+        $('.searchResult td:nth-child(' + 4 + ') br').remove();
     }
     
     function renderWWN() {
