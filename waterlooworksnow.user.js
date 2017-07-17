@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WaterlooWorksNow
 // @namespace    http://tampermonkey.net/
-// @version      2.2
+// @version      2.3
 // @description  Waterloo Works script to add more features. Adds new tab functionality to listings and an expiring-soon indicator.
 // @author       jyntran
 // @match        https://waterlooworks.uwaterloo.ca/*
